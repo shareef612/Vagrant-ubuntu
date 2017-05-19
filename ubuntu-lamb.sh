@@ -16,7 +16,7 @@ exec $SHELL <<EOF1
 sudo add-apt-repository ppa:git-core/ppa
 sudo add-apt-repository ppa:fkrull/deadsnakes-python2.7
 sudo apt-get update
-sudo apt-get install python2.7
+sudo apt-get install -y python2.7
 sudo apt-get install -y python-pip requests python-pyexiv2 urllib3 ffmpeg ffmpy subprocess.run
 
 # Installing Ruby and Jruby through RVM
