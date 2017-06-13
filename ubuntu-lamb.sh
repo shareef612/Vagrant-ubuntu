@@ -10,7 +10,7 @@ echo "*********************** Updating and Upgrading the System ****************
 sudo apt-get -y update && sudo apt-get -y upgrade
 
 echo "*********************** Installing the required libraries ***********************"
-sudo apt-get install -y git curl python3 build-essential make ruby-dev python2.7 ffmpeg python-pip python-pyexiv2
+sudo apt-get install -y build-essential make ruby-dev python2.7 ffmpeg python-pip python-pyexiv2
 
 
 # Installing RVM
