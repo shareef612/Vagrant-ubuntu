@@ -2,15 +2,13 @@
 
 # Adding python and ffmpeg external repository
 sudo add-apt-repository ppa:jonathonf/ffmpeg-3
-sudo add-apt-repository ppa:git-core/ppa
-sudo add-apt-repository ppa:jonathonf/python-2.7
 
 # Upgrade ubuntu with any patches and Installing necessary libraries
 echo "*********************** Updating and Upgrading the System ***********************"
 sudo apt-get -y update && sudo apt-get -y upgrade
 
 echo "*********************** Installing the required libraries ***********************"
-sudo apt-get install -y build-essential make ruby-dev python2.7 ffmpeg python-pip python-pyexiv2
+sudo apt-get install -y build-essential make ruby-dev ffmpeg
 
 
 # Installing RVM
